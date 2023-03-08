@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>linkedin</title>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e94d961e68.js" crossorigin="anonymous"></script>
     <style>
         *{
@@ -15,7 +16,7 @@
         body{
             display: flex;
             position: relative;
-            
+            font-family: 'Open Sans', sans-serif;
         }
         img{
             width: 100%;
@@ -223,6 +224,11 @@
             padding: 10px;
             border-radius: 5px;
         }
+        #goal-icon-1{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
         #goal-left{
             color: #0c64c5;
         }
@@ -291,7 +297,7 @@
             
             margin-left: 2%;
             background-color:#d7e4f5;
-            gap: 6%;
+            gap: 4%;
            
         }
         #fourth-top{
@@ -316,6 +322,9 @@
         }
         #fourth-linked i{
            color:#0c64c5;
+        }
+        #fourth-linked h3{
+            color:#143058;
         }
         #fourth-div{
             display: flex;
@@ -377,6 +386,7 @@
         }
         #fourth-3 button{
             color: #0c64c5;
+            height: 30px;
             border: 2px solid #0c64c5;
             border-radius: 15px;
             padding: 0 5px;
@@ -388,15 +398,35 @@
             gap: 15px
         }
        #rot{
-        width: 100%;
-        height: 100%;
+        width: 70%;
         position: absolute;
-        top: 20%;
-        left: 48%;
+        bottom: 100%;
+       left: 30%;
+       
        }
        #rot p{
         transform: rotate(270deg);
+        color:#849ec0;
+        font-size: 12px;
+        padding: 0;
+        margin-right:-97%;
+       
        }
+       #bell{
+        transform: rotate(340deg);
+       }
+       #website{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        width:60%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding: 5px 10px;  
+        border-radius: 15px; 
+        margin-right: 52%;
+        background-color: white;
+    }
     </style>
 </head>
 <body>
@@ -501,79 +531,94 @@
                 </div>
             </div>
             <div id="goal-icon">
-                <div>
-                    <i class="fa-solid fa-book" id="goal-left"></i>
-                </div>
-                <div>
-                    <h5>Do comercial prospecting</h5>
-                    <p id="goal-text">and develop your network</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-plus" id="goal-left"></i>
-                </div>
-            </div>
-            <div id="goal-icon">
-                <div>
-                    <i class="fa-solid fa-chart-simple" id="goal-left"></i>
-                </div>
-                <div>
-                    <h5>Develop personal branding</h5>
-                    <p id="goal-text">and employee advocacy</p>
+                <div id="goal-icon-1">
+                    <div>
+                        <i class="fa-solid fa-book" id="goal-left"></i>
+                    </div>
+                    <div>
+                        <h5>Do comercial prospecting</h5>
+                        <p id="goal-text">and develop your network</p>
+                    </div>
                 </div>
                 <div>
                     <i class="fa-solid fa-plus" id="goal-left"></i>
                 </div>
             </div>
             <div id="goal-icon">
-                <div>
-                    <i class="fa-solid fa-bullhorn" id="goal-left"></i>
-                </div>
-                <div>
-                    <h5>Promote your activity</h5>
-                    <p id="goal-text">and show your expertise in your field</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-plus" id="goal-left"></i>
-                </div>
-            </div>
-            <div id="goal-icon">
-                <div>
-                    <i class="fa-solid fa-eye" id="goal-left"></i>
-                </div>
-                <div>
-                    <h5>Increase the visibility</h5>
-                    <p id="goal-text">of your company</p>
+                <div id="goal-icon-1">
+                    <div>
+                        <i class="fa-solid fa-chart-simple" id="goal-left"></i>
+                    </div>
+                    <div>
+                        <h5>Develop personal branding</h5>
+                        <p id="goal-text">and employee advocacy</p>
+                    </div>
                 </div>
                 <div>
                     <i class="fa-solid fa-plus" id="goal-left"></i>
                 </div>
             </div>
             <div id="goal-icon">
-                <div>
-                    <i class="fa-solid fa-share" id="goal-left"></i>
-                </div>
-                <div>
-                    <h5>Share the life</h5>
-                    <p id="goal-text">of the company and put</p>
-                    <p id="goal-text">your employees in the spotligh</p>
+                <div id="goal-icon-1">
+                    <div>
+                        <i class="fa-solid fa-bullhorn" id="goal-left"></i>
+                    </div>
+                    <div>
+                        <h5>Promote your activity</h5>
+                        <p id="goal-text">and show your expertise in your field</p>
+                    </div>
                 </div>
                 <div>
                     <i class="fa-solid fa-plus" id="goal-left"></i>
                 </div>
             </div>
             <div id="goal-icon">
-                <div>
-                    <i class="fa-solid fa-wifi" id="goal-left"></i>
-                </div>
-                <div>
-                    <h5>Monitor</h5>
-                    <p id="goal-text">the media and the competition</p>
-                  
+                <div id="goal-icon-1">
+                    <div>
+                        <i class="fa-solid fa-eye" id="goal-left"></i>
+                    </div>
+                    <div>
+                        <h5>Increase the visibility</h5>
+                        <p id="goal-text">of your company</p>
+                    </div>
                 </div>
                 <div>
                     <i class="fa-solid fa-plus" id="goal-left"></i>
                 </div>
             </div>
+            <div id="goal-icon">
+                <div id="goal-icon-1">
+                    <div>
+                        <i class="fa-solid fa-share" id="goal-left"></i>
+                    </div>
+                    <div>
+                        <h5>Share the life</h5>
+                        <p id="goal-text">of the company and put</p>
+                        <p id="goal-text">your employees in the spotligh</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-plus" id="goal-left"></i>
+                </div>
+            </div>
+            <div id="goal-icon">
+                <div id="goal-icon-1">
+                    <div>
+                        <i class="fa-solid fa-wifi" id="goal-left"></i>
+                    </div>
+                    <div>
+                        <h5>Monitor</h5>
+                        <p id="goal-text">the media and the competition</p>
+                      
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-plus" id="goal-left"></i>
+                </div>
+            </div>
+        </div>
+        <div id="website">
+            <h4>www.ecommerce-nation.com</h4>
         </div>
     </div>
 
@@ -626,7 +671,7 @@
     <div id="fourth-col">
        <div id="fourth-top">
         <p>2022</p>
-        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-bell" id="bell"></i>
         <div>
             <i class="fa-solid fa-user"></i>
         </div>
